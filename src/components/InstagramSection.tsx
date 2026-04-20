@@ -53,13 +53,13 @@ const InstagramSection = () => {
 
         {/* Elfsight Instagram Feed */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.98 }}
-          whileInView={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="rounded-2xl overflow-hidden bg-card/30 border border-border/50 shadow-2xl backdrop-blur-sm"
+          transition={{ duration: 0.5 }}
+          className="min-h-[400px]"
         >
-          <div className="elfsight-app-e21e7773-8bd1-4ad8-823b-68038b258793" data-elfsight-app-lazy></div>
+          <div className="elfsight-app-e21e7773-8bd1-4ad8-823b-68038b258793"></div>
         </motion.div>
       </div>
     </section>

@@ -128,19 +128,15 @@
   }
 }
 
-/* Elfsight Widget Customization - Hiding Branding */
-a[href*="elfsight.com"], 
-div[class*="elfsight-app"] > div > a,
-div[class*="elfsight-app"] div:last-child a[target="_blank"],
+/* Elfsight Widget Customization - Hiding Branding Safely */
+/* We target only the absolute/fixed positioned branding elements or specific links to elfsight */
+.elfsight-app-e21e7773-8bd1-4ad8-823b-68038b258793 a[href*="elfsight.com"][class*="WidgetToolbar"],
+.elfsight-app-e21e7773-8bd1-4ad8-823b-68038b258793 a[class*="WidgetToolbar"],
 [class*="WidgetToolbar__Container"],
-[class*="WidgetToolbar__Header"],
-[class*="WidgetToolbar__Logo"] {
+[class*="WidgetToolbar__Logo"],
+a[href*="elfsight.com"]:not([class*="eapps-instagram-feed-posts-item-link"]) {
   display: none !important;
-  opacity: 0 !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
   height: 0 !important;
-  width: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
