@@ -127,3 +127,20 @@
     background-size: 60px 60px;
   }
 }
+
+/* Elfsight Widget Customization - Hiding Branding */
+a[href*="elfsight.com"], 
+div[class*="elfsight-app"] > div > a,
+div[class*="elfsight-app"] div:last-child a[target="_blank"],
+[class*="WidgetToolbar__Container"],
+[class*="WidgetToolbar__Header"],
+[class*="WidgetToolbar__Logo"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}

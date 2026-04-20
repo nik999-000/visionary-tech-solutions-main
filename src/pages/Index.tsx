@@ -8,6 +8,7 @@ import HowItWorksSection from "@/components/HowItWorksSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
 import ContactSection from "@/components/ContactSection";
+import InstagramSection from "@/components/InstagramSection";
 import Footer from "@/components/Footer";
 
 const Index = () => (
@@ -22,6 +23,7 @@ const Index = () => (
     <TestimonialsSection />
     <PricingSection />
     <ContactSection />
+    <InstagramSection />
     <Footer />
   </div>
 );
