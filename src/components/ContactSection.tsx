@@ -39,8 +39,8 @@ const ContactSection = () => (
           <p className="text-muted-foreground mb-6 max-w-md mx-auto">
             Përshkruani problemin ose produktin që dëshironi dhe do t'ju përgjigjemi menjëherë.
           </p>
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-            <Button variant="hero" size="lg" className="text-lg px-10 py-6">
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-block w-full sm:w-auto">
+            <Button variant="hero" size="lg" className="w-full sm:w-auto text-base md:text-lg px-6 md:px-10 py-5 md:py-6 h-auto">
               💬 +355 69 431 6444
             </Button>
           </a>
